@@ -1,0 +1,319 @@
+
+/* header font
+'Great Vibes', cursive,
+
+*/
+
+
+body{
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+
+}
+
+
+ #hero h1{
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size:10rem;
+    color: #fff;
+    display: inline-block;
+    z-index: 3;
+     margin-bottom: -3rem;
+
+}
+#hero{
+    background-image: linear-gradient(to left, rgba(255,255,255,.1) 0%, rgba(0,0,0,.4) 100%) ,
+    url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0 100%);
+	clip-path: polygon(0 0, 100% 0%, 100% 85%, 0 100%);
+	box-shadow: 1px 10px 15px #000;
+	
+}
+.creations {
+    font-size: .6rem;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 15px;
+    color: #fff;
+    z-index: -3;
+
+
+
+}
+
+.hero-bg {
+    position: absolute;
+    top: 15rem;
+    left: 3rem;
+}
+
+.sub_title{
+    color: #fff;
+    line-height: 3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.section2 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+
+}
+
+/* section 3 css */
+.section3 {
+	padding: 14rem 4rem;
+    background-image: linear-gradient(to left, rgba(0,0,0,.5) 0%, rgba(0,0,0,.7) 100%) ,
+    url("../img/food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+webkit-clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
+	
+	
+	
+	}
+	
+.section3 h3{
+	color: #fff;
+    text-align: center;
+	border: 3px solid #fff;
+	display: inline-block;
+	padding: 2.5rem;
+	margin-top: 4rem;
+	line-height: 2em;
+}
+
+.section3 p {
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+/* end of section 3*/
+.wrapper{
+    background-color: transparent;
+}
+
+.heading hr{
+    width: 50%;
+
+}
+
+.heading{
+    color:#fff;
+    text-align:center;
+    padding-bottom: 2rem;
+}
+
+
+.section {
+    margin-top: 20px;
+
+}
+
+
+
+.text-center {
+    margin: 4rem;
+    text-align: justify;
+     line-height: 100%;
+    letter-spacing: .4px
+}
+
+/*section 1 */
+
+.section1-icon{
+
+    padding-bottom: 10px;
+
+}
+
+.text-center2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section-socialmedia{
+    height: 100%;
+    background-color: #ff793f;
+    color: #fff;
+    margin-top: 0px;
+    padding-top:50px;
+    padding-bottom: 70px;
+    text-align: center;
+
+
+}
+
+.section-socialmedia h2 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	line-height:1em;
+	font-weight: 500;
+	letter-spacing: 2px;
+	
+}
+
+
+.fa-facebook-square:before{
+    font-size: 3rem;
+    color: #fff;
+
+}
+
+.fa-twitter-square:before{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.fa-yelp:before{
+    color:#fff;
+    font-size: 3rem;
+}
+
+.fa-instagram:before{
+    color:#fff;
+    font-size: 3rem;
+}
+
+/*section testimonials*/
+.section-testimonials{
+height: 500px;
+text-align: center;
+}
+
+.owner .avatar{
+    padding: 15px;
+    max-width: 180px;
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+
+
+
+}
+
+
+.img-circle {
+    padding:0px;
+    max-width: 250px !important;
+    margin-top: -100%;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+
+/*testimontial sections*/
+
+.testimonial {
+    width: 20%;
+    border: 2px solid #ff793f;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+	
+}
+
+.section-testimonials{
+
+    padding: 30px;
+
+}
+
+.row h3{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+	line-height: 2em;
+	letter-spacing: 2px;
+}
+
+.blockquote{
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 40px;
+    line-height: 145%;
+    font-style:italic;
+    position: relative;
+}
+
+.section-testimonials{
+  background-image: linear-gradient(to left, rgba(0,0,0,.5) 0%, rgba(0,0,0,.7) 100%) ,
+  url("../img/cream.jpg");
+   background-position: center;
+   background-size:cover;
+   background-attachment: fixed;
+   color: #ffff;
+   height: 100%;
+  
+ 
+   
+
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 24px;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: -3px;
+}
+
+
+/* contact us sections*/
+
+
+.btn{
+  background-color:#ff793f;
+  border-color: #ff794f;
+
+}
+.btn:hover{
+  background-color: rgba(255, 121, 62, 0.74);
+  border-color: rgba(255, 121, 62, 0.74);
+}
+
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .show > .btn-danger.dropdown-toggle {
+    background-color: rgba(255, 121, 62, 0.74);
+    border-color: rgba(255, 121, 62, 0.74);
+}
+
+.icon-info{
+  color:#ff794f;
+}
+#contact-us .contactus-2 .map {
+  width: 100%;
+  height: 100%;
+}
+
+
+.contactus-2{
+  background-image:url("../img/map.png");
+  background-position: bottom center;
+  background-size: cover;
+   padding: 5rem;
+
+}
+
+
+/*footer*/
+.footer{
+  background-color: rgb(61, 61, 61);
+  max-width: 100%;
+}
+
